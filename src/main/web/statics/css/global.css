@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* 
+ * Theme Name:登录页面样式
+ * 详尽信息请看官网：http://www.zltheme.com 淘宝店 http://zltheme.taobao.com
+ *
+ * 智乐前端 出品制作
+ *
+ * 请尊重原创，支持正版，保留头部版权，感谢您的支持。
+
+*/
+/* * * * * * * * *全局样式* * * * * * * * * */
+body{margin:0;padding:0;color:#fff;font-size:14px;font-family:"微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif;}
+dd,div,dt,form,h1,h2,h3,input,li,p,span,ul{margin:0;padding:0;list-style:none;}
+h1,h2,h3,h4,h5,h6{margin:0;font-weight:400;font-size:12px;}
+input:-webkit-autofill{-webkit-box-shadow:0 0 0 1000px #fff inset;}
+input,select,textarea{outline:medium;border:0;background:#fff;vertical-align:middle;}
+a{text-decoration:none;}
+.fl{float:left;}
+.fr{float:right;}
+
+/*容器定义*/
+.container{clear:both;margin:0 auto;width:1300px;overflow:hidden;}
+/* * * * * * * * *登录页样式* * * * * * * * */
+.header{height:75px;background-color:#1780C8;line-height:75px;}
+.header .logo{float:left;}
+.header a{color:#fff;}
+.header ul{float:right;}
+.header ul li{float:left;}
+.header ul li a{display:block;padding:0 10px;line-height:74px;}
+.header ul li a:hover{border-bottom:2px solid #d1d1d1;}
+.main{position:relative;overflow:hidden;height:810px;background:#198ede;}
+.main-bg{position:absolute;bottom:0;left:-.5%;width:100%;max-width:1920px;background:#198ede;-webkit-animation:anim-run 2.5s ease-in-out infinite alternate;}
+@-webkit-keyframes anim-run{from{left:-1%;}
+to{left:0;}
+}
+.main-bg img{width:103%;}
+.login-box{position:absolute;top:55%;left:50%;overflow:hidden;margin-top:-202px;margin-left:-500px;width:1000px;min-height:404px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;background:#fff;}
+.login-box h4{padding:35px 0 35px 0;color:#43465a;font-size:25px;line-height:25px;}
+.login-box-l{float:left;width:662px;height:450px;}
+.login-box-l li{margin-bottom:20px;width:100%;height:30px;border-bottom:1px solid #d9dade;line-height:26px;}
+.login-box-l li .inp{float:left;width:225px;height:26px;color:#43465a;font-size:14px;font-family:"Microsoft Yahei","微软雅黑",Arial,Helvetica,sans-serif;line-height:26px;}
+.login-box-l li.btn{margin-bottom:0;border-bottom:0;line-height:32px;}
+.login-box-l li .submit{display:block;width:176px;height:32px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;background:#369ff2;color:#fff;text-align:center;font-size:15px;font-family:"Microsoft Yahei","微软雅黑",Arial,Helvetica,sans-serif;line-height:32px;}
+.login-box-l li .submit:hover{background:#198ede;cursor:pointer;}
+.login-box-l li .forget{float:right;color:#198ede;font-size:14px;line-height:26px;}
+.login-box-l li .forget:hover{text-decoration:underline;}
+.login-box-l li span{float:left;display:block;width:23px;height:26px;background:url(../images/icon.png) no-repeat;background-position:0 7px;}
+.login-box-l li.lip span{background-position:1px -36px;}
+.login-box-l li.lie span{background-position:1px -68px;}
+.login-box-l li.liq span{background-position:1px -15px;}
+.login-box-l li.lic span{background-position:1px -97px;}
+.login-box-r{float:right;width:338px;height:450px;background:url(../images/login-r.jpg) no-repeat #292929;}
+.login-box-r-con{margin:0 auto;width:230px;}
+.login-box-r-con p{padding:50px 0 108px 0;color:#fff;font-size:14px;line-height:30px;}
+.login-box-r-con p span{display:block;padding-bottom:10px;color:#5eb8ff;font-size:17px;line-height:17px;}
+.login-box-r-con a{display:block;margin:0 auto;width:175px;height:36px;border:2px solid #fff;color:#fff;text-align:center;font-size:14px;line-height:36px;}
+.login-box-r-con a:hover{border-color:#369ff2;background:#369ff2;}
+.login-from{margin:0 auto;width:560px;}
+.footer{padding-top:20px;height:80px;background:#333;color:#797979;}
+.footer p{margin-bottom:5px;}
+.footer a{color:#797979;}
+.footer .about{font-size:20px;}
